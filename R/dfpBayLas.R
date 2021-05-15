@@ -47,9 +47,9 @@
 #'   parameters associated to the selected coefficients, 1 sample per row.}
 #'   \item{ss}{Samples for sigma.}
 #'   \item{sl}{Samples for the global shrinkage parameter.}
-#'   \item{XX}{Updated sufficient satatistic X'X.}
-#'   \item{Xy}{Updated sufficient satatistic X'y.}
-#'   \item{yy}{Updated sufficient satatistic y'y.}
+#'   \item{XX}{Updated sufficient statistic X'X.}
+#'   \item{Xy}{Updated sufficient statistic X'y.}
+#'   \item{yy}{Updated sufficient statistic y'y.}
 #'   \item{sN}{Updated sufficient statistic for the number of observations
 #'   processed so far.}
 #'   \item{P}{Updated partition.}
@@ -185,7 +185,7 @@ dfpBayLas <- function(staBat    = 1,
     yy <- yy + sum(y^2)
     sN <- sN + length(y)
 
-    # Perfroms Bayesian Lasso with DFP
+    # Performs Bayesian Lasso with DFP
     samOut <- dfpBayLasSte(P     = P,
                            XX    = XX,
                            Xy    = Xy,
@@ -219,7 +219,6 @@ dfpBayLas <- function(staBat    = 1,
     ## Creates a New Partition Based on the Connected Components
     ### Checks if the Partition Needs to be Updated
     if( (i %% updPar) == 0){
-      print("Partition Updated")
       graParOut      <- graPar(updCor, M)
       P              <- graParOut$partition
       treshold       <- graParOut$treshold

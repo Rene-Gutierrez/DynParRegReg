@@ -91,9 +91,9 @@ and parameter partition.
   parameters associated to the selected coefficients, 1 sample per row.}
   \item{ss}{Samples for sigma.}
   \item{sl}{Samples for the global shrinkage parameter.}
-  \item{XX}{Updated sufficient satatistic X'X.}
-  \item{Xy}{Updated sufficient satatistic X'y.}
-  \item{yy}{Updated sufficient satatistic y'y.}
+  \item{XX}{Updated sufficient statistic X'X.}
+  \item{Xy}{Updated sufficient statistic X'y.}
+  \item{yy}{Updated sufficient statistic y'y.}
   \item{sN}{Updated sufficient statistic for the number of observations
   processed so far.}
   \item{P}{Updated partition.}
