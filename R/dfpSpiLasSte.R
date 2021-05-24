@@ -1,4 +1,4 @@
-#' Performs one iteration of DFP for the Bayesian Lasso
+#' Performs one iteration of DFP for the Spike & Lasso prior.
 #'
 #' This function performs one step of the DFP with the Bayesian Lasso prior.
 #' The inputs are described in Algorithm 1 and the Supplementary Materials of
