@@ -1,7 +1,8 @@
 #' Performs one iteration of DFP for the Bayesian Lasso
 #'
 #' This function performs one step of the DFP with the Bayesian Lasso prior.
-#' The inputs are described in Algorithm 1 of Guhaniyogi & Gutierrez.
+#' The inputs are described in Algorithm 1 and the Supplementary Materials of
+#' Guhaniyogi & Gutierrez.
 #'
 #' @param P     Current partition to be used.
 #' @param XX    Sufficient statistic X'X.
