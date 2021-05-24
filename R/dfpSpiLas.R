@@ -1,4 +1,4 @@
-#' Performs DFP for the Bayesian Lasso Prior
+#' Performs DFP for the Spike & Lasso Prior
 #'
 #' This function runs DFP using the Bayesian Lasso prior on data batches
 #' previously stored in the indicated paths. It saves the performance statistics

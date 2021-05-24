@@ -2,7 +2,7 @@
 % Please edit documentation in R/dfpSpiLas.R
 \name{dfpSpiLas}
 \alias{dfpSpiLas}
-\title{Performs DFP for the Bayesian Lasso Prior}
+\title{Performs DFP for the Spike & Lasso Prior}
 \usage{
 dfpSpiLas(
   staBat = 1,
